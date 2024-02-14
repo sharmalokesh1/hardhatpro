@@ -1,0 +1,13 @@
+Set Up Hardhat Project: Initialize a Hardhat project.
+
+Write Your Smart Contract: Create or place your smart contract code in the contracts directory.
+
+Configure Network: Update hardhat.config.js with your Ethereum mainnet settings, including your Infura project ID and private key.
+
+Compile Contracts: Run npx hardhat compile to compile your contracts.
+
+Deploy Contract: Write a deployment script or use the Hardhat console to deploy your contract to the Ethereum mainnet using npx hardhat run scripts/deploy.js --network mainnet.
+
+Verify Contract: Verify your contract on a blockchain explorer like Etherscan using npx hardhat verify --network mainnet DEPLOYED_CONTRACT_ADDRESS.
+
+Interact with Contract: Interact with your deployed contract using its address on the Ethereum mainnet.
